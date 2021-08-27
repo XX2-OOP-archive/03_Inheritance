@@ -14,7 +14,6 @@ public class App {
       ausgabe("Alter: " + cat.getAge());
       ausgabe("Alter: " + cat.getAge());
     
-    
       ausgabe("--------------------");
 
       Tomcat tomcat  = new Tomcat("Alonzo", "grey", 35);
