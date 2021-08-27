@@ -4,28 +4,26 @@ public class App {
     
     public static void main(String[] args) {
         
-      Cat cat1  = new Cat("Grizabella", "white", 29, true);
+      Cat cat  = new Cat("Grizabella", "white", 29);
 
-      ausgabe("Name: " + cat1.getStringAttributes("#name"));
-      ausgabe("Fellfarbe: " + cat1.getStringAttributes("#color"));
+      ausgabe("Name: " + cat.getStringAttributes("#name"));
+      ausgabe("Fellfarbe: " + cat.getStringAttributes("#color"));
       
-      ausgabe("Alter: " + cat1.getAge());
-      ausgabe("Alter: " + cat1.getAge());
-      ausgabe("Alter: " + cat1.getAge());
-      ausgabe("Alter: " + cat1.getAge());
+      ausgabe("Alter: " + cat.getAge());
+      ausgabe("Alter: " + cat.getAge());
+      ausgabe("Alter: " + cat.getAge());
+      ausgabe("Alter: " + cat.getAge());
     
     
       ausgabe("--------------------");
 
-      Cat cat2  = new Cat("Alonzo", "grey", 35, false);
+      Tomcat tomcat  = new Tomcat("Alonzo", "grey", 35);
       
-      ausgabe("Name: " + cat2.getStringAttributes("#name"));
-      ausgabe("Fellfarbe: " + cat2.getStringAttributes("#color"));
+      ausgabe("Name: " + tomcat.getStringAttributes("#name"));
+      ausgabe("Fellfarbe: " + tomcat.getStringAttributes("#color"));
       
-      ausgabe("Alter: " + cat2.getAge());
-      ausgabe("Alter: " + cat2.getAge());
-      ausgabe("Alter: " + cat2.getAge());
-
+      ausgabe("Alter: " + tomcat.getAge());
+  
     }
 
     public static void ausgabe(String outputStr) {
