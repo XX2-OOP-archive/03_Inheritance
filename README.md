@@ -1,3 +1,3 @@
-# 04_Inheritance
+# 03_Inheritance
 
 ### Vererbung in Java
