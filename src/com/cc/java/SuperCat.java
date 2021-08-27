@@ -12,7 +12,7 @@ public class SuperCat {
         this.age = age;
     }
 
-    public String getStringAttributes(String flag){
+    protected String getStringAttributes(String flag){
         switch (flag) {
             case "#name":
                 return name;
