@@ -20,7 +20,6 @@ public class App {
       
       ausgabe("Name: " + tomcat.getStringAttributes("#name"));
       ausgabe("Fellfarbe: " + tomcat.getStringAttributes("#color"));
-      
       ausgabe("Alter: " + tomcat.getAge());
   
     }
